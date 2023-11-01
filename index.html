@@ -6,13 +6,17 @@
       <title>Chirp starter files</title>
       <link rel="stylesheet" href="./styles/styles.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+      <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!-- or -->
+      <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        
 </head>
 <body>
     <header>
         <h2 class="head-title"><i>Chirp.</i></h2>
-        <nav class="navrbar">
+        <nav class="navbar">
             <ul>
                 <a href="/"><li>Home</li></a>
                 <a href="/"><li>Pricing</li></a>
@@ -23,37 +27,45 @@
         <div  class="harm"><img src="./Assets/Hamburger Menu.svg" alt="Harmburg-menu"></div>
     </header>
 
+    <!-- main body start here -->
+
     <main class="hero">
-        <div class="hero-text">
-            <div class="main-tittle">
-                <h1>Twitter analytics taken to a whole new level.</h1>
-                <p>Chirp is a suite of Twitter analytics that will help better understand your audience, 
-                    which tweets they like, and most importantly, when they are the most active on Twitter. 
-                </p>
+        <div class="main__hero">
+            <div class="text__main">
+                <div class="hero-text">
+                    <div class="main-tittle">
+                        <h1>Twitter analytics taken to a whole new level.</h1>
+                        <p>Chirp is a suite of Twitter analytics that will help better understand your audience, 
+                            which tweets they like, and most importantly, when they are the most active on Twitter. 
+                        </p>
+                    </div>
+                    <div class="hero__button">
+                        <button type="submit" class="btn"><img src="./Assets/Twitter.svg" alt="twitter"> Sign in with Twitter</button>
+                        <a href="/">Learn more <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="hero__button">
-                <button type="submit"><img src="./Assets/Twitter.svg" alt="twitter"> Sign in with Twitter</button>
-                <a href="/">Learn more</a>
+            <div class="User__profiles">
+                <div class="profile-image">
+                    <img src="./Assets/userAvatar01.svg" alt="user_avater">
+                    <img src="./Assets/userAvatar02.svg" alt="user_avater">
+                    <img src="./Assets/userAvatar03.svg" alt="user_avater">
+                    <img src="./Assets/userAvatar04.svg" alt="user_avater">
+                    <img src="./Assets/userAvatar05.svg" alt="user_avater">
+                    <img src="./Assets/userAvatar06.svg" alt="user_avater">
+                    <img src="./Assets/userAvatar07.svg" alt="user_avater">
+                    <img src="./Assets/userAvatar08.svg" alt="user_avater">
+                    <img src="./Assets/userAvatar09.svg" alt="user_avater">
+                </div>
+                <p class="profile-p">Join <span>195</span> others who have analyzed their followers and schedule <span>1342</span> tweets!</p>
             </div>
-        </div>
-        <div class="User__profiles">
-            <div class="profile-image">
-                <img src="./Assets/userAvatar01.svg" alt="user_avater">
-                <img src="./Assets/userAvatar02.svg" alt="user_avater">
-                <img src="./Assets/userAvatar03.svg" alt="user_avater">
-                <img src="./Assets/userAvatar04.svg" alt="user_avater">
-                <img src="./Assets/userAvatar05.svg" alt="user_avater">
-                <img src="./Assets/userAvatar06.svg" alt="user_avater">
-                <img src="./Assets/userAvatar07.svg" alt="user_avater">
-                <img src="./Assets/userAvatar08.svg" alt="user_avater">
-                <img src="./Assets/userAvatar09.svg" alt="user_avater">
-            </div>
-            <p class="profile-p">Join <span>195</span> others who have analyzed their followers and schedule 1342 tweets!</p>
         </div>
         <div class="hero-image">
             <img src="./Assets/Hero Image (Desktop View).png" alt="image">
         </div>
     </main>
+
+    <!-- sections of user__features layout start here -->
 
     <section class="user__features">
         <div class="title">
@@ -62,14 +74,14 @@
         <div class="feature__content">
             <div class="tweet_analyct">
                 <div class="analytic">
-                    <img src="./Assets/" alt="">
+                    <img src="./Assets/" alt=""><i class='bx bx-analyse' ></i>
                     <h2>analytic</h2>
                     <p>We constantly monitor your audience as it grows - so you can Tweet when your followers
                         are most likely to be online and ready to engage with your content.
                     </p>
                 </div>
                 <div class="schedule">
-                    <img src="./Assets/" alt="">
+                    <img src="./Assets/" alt=""><i class='bx bx-money-withdraw'></i>
                     <h2>Schedule Your Tweets</h2>
                     <p>Quality tweets drive tons of engagement. With Chirp, you can write tweets in advance and schedule
                         them when your audience is most likely to read.
@@ -80,14 +92,14 @@
         <div class="second__content">
             <div class="user__friendly">
                 <div class="Analyzer">
-                    <img src="./Assets/" alt="">
+                    <img src="./Assets/" alt=""><i class='bx bxs-laugh' ></i>
                     <h2>Smart Analyzer</h2>
                     <p>Chirp automatically recognizes your followers' most active times and automatically send you
                         notifications if you're missing out on an opportunity.
                     </p>
                 </div>
                 <div class="screen__color">
-                    <img src="./Assets/" alt="">
+                    <img src="./Assets/" alt=""></i><i class='bx bxs-color' ></i>
                     <h2>Dark Mode</h2>
                     <p>Friendly on the eyes, no matter what time you write your Tweets. All colors are chosen 
                         to make sure your eyes are at ease at all times.
@@ -97,13 +109,16 @@
         </div>
     </section>
 
+    <!-- sections of user__features layout end here -->
+
+    <!-- customers__feed sections start here -->
     <section class="customers__feed">
         <div class="main__title">
             <h1>What our customers say</h1>
         </div>
         <div class="users__feed">
             <div class="sara__feed">
-                <div class="">
+                <div class="s__profile">
                     <div>
                         <img src="./Assets/userAvatar09.svg" alt="sara-image">
                     </div>
@@ -111,16 +126,22 @@
                         <h3>Sara May</h3>
                         <p>@sara_may</p>
                     </div>
-                    <div>
+                    <div class="s__twit">
                         <img src="./Assets/Twitter (Blue).svg" alt="twiiter">
                     </div>
                 </div>
                 <div class="like">
                     <p>I just tried out @chirp and it's amazing, love all the analytics I can see.</p>
-                    <img src="./Assets/Like.svg" alt="like">
+                    <div class="sara__like">
+                        <div class="liky">
+                            <img src="./Assets/Like.svg" alt="like">
+                            <p>2</p>
+                        </div>
+                        <p>march 2, 2021</p>
+                    </div>
                 </div>
             </div>
-            <div class="">
+            <div class="sc__feed">
                 <div class="scott__feed">
                     <div>
                         <img src="./Assets/userAvatar09.svg" alt="sara-image">
@@ -129,14 +150,20 @@
                         <h3>Jack Scott</h3>
                         <p>@jackscott_</p>
                     </div>
-                    <div>
+                    <div class="s__twit">
                         <img src="./Assets/Twitter (Blue).svg" alt="twiiter">
                     </div>
                 </div>
-                <div>
-                    <p>I intially started using Chirp to support the co-founder as I personally knew him, but after having 
-                        tried it out for a few weeks, I can genuinely say this changed my Twitter game.</p>
-                    <img src="./Assets/Like.svg" alt="like">
+                <div class="like">
+                    <p>I initially started using Chirp to support the co-founder as I personally knew him, but after having tried it out for a weeks, 
+                        I can genuinely say this changed my Twitter game.</p>
+                    <div class="sara__like">
+                        <div class="liky">
+                            <img src="./Assets/Like.svg" alt="like">
+                            <p>2</p>
+                        </div>
+                        <p>march 2, 2021</p>
+                    </div>
                 </div>
             </div>
             <div class="jesi__feed">
@@ -148,25 +175,19 @@
                         <h3>Jessica May</h3>
                         <p>@jmay98</p>
                     </div>
-                    <div>
+                    <div class="s__twit">
                         <img src="./Assets/Twitter (Blue).svg" alt="twiiter">
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <img src="./Assets/userAvatar09.svg" alt="sara-image">
-                    </div>
-                    <div>
-                        <h3>Jessica May</h3>
-                        <p>@jmay98</p>
-                    </div>
-                    <div>
-                        <img src="./Assets/Twitter (Blue).svg" alt="twiiter">
-                    </div>
-                </div>
-                <div>
+                <div class="like">
                     <p>Absolutely love everything about Chirp, from the design to how everything works smoothly.</p>
-                    <img src="./Assets/Like.svg" alt="like">
+                    <div class="sara__like">
+                        <div class="liky">
+                            <img src="./Assets/Like.svg" alt="like">
+                            <p>2</p>
+                        </div>
+                        <p>march 2, 2021</p>
+                    </div>
                 </div>
             </div>
         </div>

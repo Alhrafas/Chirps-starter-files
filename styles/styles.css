@@ -4,3 +4,202 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
+body {
+    /* padding: 3em 1em 0; */
+}
+
+.navbar, .twit-sign {
+    display: none;
+}
+
+header {
+    display: flex;
+    order: 1;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+    position: sticky;
+    top: 0;
+    background-color: rgb(247, 243, 243);
+    margin: 0;
+}
+.head-title {
+    color: blue;
+}
+.hero {
+    padding: 1em;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    background-color:  rgb(247, 243, 243);
+    margin-bottom: 4em;
+}
+.hero-image img {
+    width: 100%;
+    margin-bottom: 2em;
+}
+.text__main {
+    margin-bottom: 4%;
+}
+.main-tittle h1 {
+    font-size: 2.1rem;
+    margin-bottom: 1.5%;
+}
+.main-tittle p {
+    font-size: 1rem;
+    line-height: 1.4;
+    opacity: 0.5;
+    margin-bottom: 4%;
+}
+.hero__button {
+    /* border: 1px solid gold; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.btn {
+    border: 1px solid rgb(12, 136, 252);
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.6em;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(12, 136, 252);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: lightblue;
+}
+.hero__button a {
+    color: blue;
+    text-decoration: none;
+    margin-top: 2%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.hero__button a:hover {
+    background-color: transparent;
+}
+.User__profiles {
+    width: 100%;
+    /* border: 2px /solid blueviolet; */
+    margin-bottom: 4%;
+}
+.profile-image {
+    display: flex;
+    gap: -5;
+    width: 80%;
+    align-items: flex-start;
+}
+.profile-image img {
+    width: 10%;
+    margin-bottom: 5%;
+}
+.profile-p {
+    font-size: 1rem;
+    opacity: 0.5;
+    /* margin-top: 10%; */
+}
+span {
+    color: blue;
+}
+
+/* section styles start */
+
+.user__features {
+    padding: 1em;
+    margin-bottom: 4em;
+}
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 2em;
+}
+.feature__content {
+    /* border: 1px solid gold; */
+}
+.analytic,
+.schedule,
+.Analyzer,
+.screen__color {
+    /* border: 1px solid black; */
+    padding: 1em;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.analytic h2,
+.schedule h2,
+.Analyzer h2,
+.screen__color h2 {
+    font-size: 0.9rem;
+    margin: 1em 0;
+}
+.analytic p,
+.schedule p,
+.Analyzer p,
+.screen__color p {
+    line-height: 1.5;
+    opacity: 0.6;
+}
+
+/* customers__feed style start here */
+.customers__feed {
+    padding: 2em 1em;
+    background-color: rgb(230, 239, 247);
+}
+.main__title {
+    font-size: 1.3rem;
+    margin-bottom: 5%;
+}
+.users__feed {
+    border: 2px solid limegreen;
+}
+.sara__feed,
+.sc__feed,
+.jesi__feed {
+    border: 1px solid red;
+    padding: 1em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 1em;
+}
+.s__profile,
+.scott__feed,
+.jesi_feed_contnet {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 0.5em;
+}
+.s__twit {
+    /* border: 1px solid gold; */
+    margin-left: 40%;
+}
+.sara__feed p {
+    opacity: 0.6;
+}
+.sara__like {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 0.5rem;
+}
+.liky {
+    display: flex;
+    gap: 5px;
+}
+.like p {
+    line-height: 1.5;
+    font-size: 1.1rem;
+    opacity: 0.6;
+    margin-bottom: 4%;
+}
