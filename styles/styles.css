@@ -20,8 +20,8 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2em;
-    position: sticky;
-    top: 0;
+    /* position: sticky; */
+    /* top: 0; */
     background-color: rgb(247, 243, 243);
     margin: 0;
 }
@@ -159,13 +159,10 @@ span {
     font-size: 1.3rem;
     margin-bottom: 5%;
 }
-.users__feed {
-    border: 2px solid limegreen;
-}
 .sara__feed,
 .sc__feed,
 .jesi__feed {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 1em;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 5px;
@@ -183,7 +180,9 @@ span {
     /* border: 1px solid gold; */
     margin-left: 40%;
 }
-.sara__feed p {
+.sara__feed p,
+.j__feed,
+.may__feed {
     opacity: 0.6;
 }
 .sara__like {
@@ -202,4 +201,125 @@ span {
     font-size: 1.1rem;
     opacity: 0.6;
     margin-bottom: 4%;
+}
+.jesi_feed_contnet h3,
+.s__profile,
+.scott__feed {
+    font-size: 0.9rem;
+}
+
+/* price__pattern design */
+.price__pattern {
+    padding: 3em 1em;
+}
+.price__tittle {
+    /* border: 1px solid blue; */
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.price__tittle h1 {
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+.price__tittle p {
+    line-height: 1.5;
+    opacity: 0.6;
+}
+.price__shedule {
+    border: 1px solid gold;
+    padding: 1.5em;
+    background-color: rgb(247, 243, 243);
+    border-radius: 5px;
+}
+.p__time {
+    margin-bottom: 5%;
+}
+.p__time p {
+    opacity: 0.6;
+    font-size: 0.4rem;
+    line-height: 1.5;
+}
+.p__time h2 {
+    opacity: 0.6;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.p__time h1 {
+    font-size: 2.2rem;
+}
+.dollar {
+    font-size: 1rem;
+    color: black;
+    opacity: 0.6;
+}
+hr {
+    opacity: 0.6;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.limited,
+.weeks,
+.track {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.limited p,
+.weeks p,
+.track {
+    font-size: 1.2rem;
+    opacity: 0.6;
+}
+.limited img,
+.weeks img,
+.track img {
+    width: 10%;
+    margin-bottom: 8%;
+}
+.price-btn {
+    border: 1px solid rgb(12, 136, 252);
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.6em;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(12, 136, 252);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.price-btn:hover {
+background-color: lightblue;
+}
+
+/* footer style */
+footer {
+    background-color: aliceblue;
+    padding: 1em;
+}
+footer h2 {
+    color: rgb(26, 26, 253);
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-bottom: 5%;
+}
+.policy {
+    display: flex;
+    gap: 20px;
+}
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+ul a {
+    text-decoration: none;
+    color: black;
+}
+ul a:hover {
+    background-color: transparent;
+    border-radius: 5px;
 }
